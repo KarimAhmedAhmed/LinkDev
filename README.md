@@ -37,17 +37,13 @@ $ npm install
 
 ## Running the app
 
+Install Docker Desktop if you do not have it. Run docker package using docker-compose command
+
 ```bash
-# development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
+# docker
+$ docker-compose up #--build 
 ```
-
+Please don't forget to add your mongodb url in the environment file
 ## Test
 
 ```bash
@@ -60,14 +56,7 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
-## Running the app
 
-Install Docker Desktop if you do not have it. Run docker package using docker-compose command
-
-```bash
-# docker
-$ docker-compose up #--build 
-```
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
