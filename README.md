@@ -46,7 +46,7 @@ $ docker-compose up #--build
 Please don't forget to add your mongodb url in the environment file
 
 ```bash
-like
+
 MONGO_URI=mongodb://localhost:27017/?readPreference=primary&appname=MongoDB%20Compass&directConnection=true&ssl=false
 ```
 ## Test
